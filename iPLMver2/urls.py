@@ -20,5 +20,4 @@ from django.conf import settings
 urlpatterns = [
     url('^admin/', admin.site.urls),
     url(r'^', include ('CRS.urls'))
-
 ]

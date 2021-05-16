@@ -11,4 +11,10 @@ urlpatterns = [
     url(r'^faculty_login/$', views.faculty_login, name='faculty_login'),
     url(r'^student_login/$', views.student_login, name='student_login'),
     url(r'^applicant_login/$', views.applicant_login, name='applicant_login'),
+    url(r'^student/$', views.students, name='students'),
+    url(r'^chairperson/$', views.chairperson, name='chairperson'),
+    url(r'^faculty/$', views.faculty, name='faculty'),
+    url(r'^applicant/$', views.applicant, name='applicant'),
+    url(r'^admin_access/$', views.admin, name='admin'),
+    
 ]
