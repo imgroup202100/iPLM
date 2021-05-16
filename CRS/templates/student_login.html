@@ -168,17 +168,19 @@ body
     <p id="chairperson">student</p>
     <p id="line"></p>
 
-<form>
+<form method = 'POST'>
+	{%csrf_token%}
 	<input type="text" id="username" name="username">
 	<input type="text" id="password" name="password">
+	<div class="container2">
+		<button class="btn btn6">log-in</button>
+	</div>
 </form>
 
 <p id="tusername">username</p>
 <p id="tpassword">password</p>
 
-<div class="container2">
-	<button class="btn btn6">log-in</button>
-</div>
+
 
 <p id="backbutton"><a href="{% url 'index' %}"><img src="{% static 'CRS/images/back.png' %}" alt="iplm" width="35px" height="35px"></a></p>
     

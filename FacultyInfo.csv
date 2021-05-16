@@ -1,0 +1,4 @@
+id,facultyNumber,facultyCollege,facultyEmail,facultyPassword,facultyFname,facultyLname,facultyMname,facultyWorkStatus,facultyPedigree,facultyGender,facultyCivilStatus,facultyCitizenship,facultyContactNumber
+,20201111,,faculty1@email.com,1234,Juan,Cruz,Santos,FULL-TIME,,MALE,SINGLE,Filipino,9987654321
+,20201112,,faculty2@email.com,1111,Harry,Roque,Dolphin,FULL-TIME,,MALE,MARRIED,Filipino,9887654321
+,20201113,,faculty3@email.com,2222,Mocha,Uson,Fake,PART-TIME,,FEMALE,SINGLE,Filipino,9876543210
